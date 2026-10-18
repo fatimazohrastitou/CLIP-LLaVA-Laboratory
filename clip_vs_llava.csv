@@ -1,0 +1,8 @@
+Property,CLIP,LLaVA
+Input,Image + candidate text prompts,Image + text question
+Main output,Predicted class: cat,A cat is present in the image. It is a striped cat with a black and white color pattern.
+Zero-shot classification,"Yes, using text similarity",Possible through prompting
+Image retrieval,"Yes, using embeddings",Not its primary purpose
+Text generation,No,Yes
+VQA,Not directly,Yes
+Open-ended response,No,Yes
